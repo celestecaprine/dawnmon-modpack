@@ -1,16 +1,16 @@
-name = "ponymon"
+name = "dawnmon-modpack"
 author = "SoniaSquishy & Shebang"
-version = "rc-2"
+version = "1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dd9cdecb94a2cec5bf0f1ac8ef0a7c3438b79a41470199867ea11a5507f86106"
+hash = "2a1417aa5967b1b84357c0baaf01b126367a7ec174ec859eede9951ddfcc42d2"
 
 [versions]
-fabric = "0.16.9"
-minecraft = "1.20.1"
+fabric = "0.17.2"
+minecraft = "1.21.1"
 
 [options]
 datapack-folder = "datapacks"
