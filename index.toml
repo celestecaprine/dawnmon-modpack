@@ -81,6 +81,11 @@ hash = "00b259fdd4d835fb64598ad9ee720927dc951234c5170842c80457a5b8c048b6"
 metafile = true
 
 [[files]]
+file = "mods/bundle-recipe.pw.toml"
+hash = "9fdd6e5493d0bbf564f032223ef2106eaef018e16d63d337043dc162771228dd"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "c899acdc322ab52800a6e305a16427297f411c1c39d97983be96e8b6a34e157c"
 metafile = true
@@ -217,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0e28ba15ba1769864a4af0b2f7ffaa3c90017b49633bef2a843b14a46e9a791d"
+hash = "446f8047ee9168b65fe9d4600f82cb915c7aa0d0f049a344177ba340a5b93a8a"
 metafile = true
 
 [[files]]
@@ -443,6 +448,11 @@ metafile = true
 [[files]]
 file = "mods/valhelsia-furniture.pw.toml"
 hash = "a0f80e176fabea33c384b8618aaf4cabc71d43d74e3ee1f3ac42b66d0ef7fdbf"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-backpacks.pw.toml"
+hash = "964698655c77bbfdef18ea9b86ceb3163cef36a06326b1a91710bde0a03ea8bf"
 metafile = true
 
 [[files]]
