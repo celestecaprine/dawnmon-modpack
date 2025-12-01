@@ -136,11 +136,6 @@ hash = "41dc43f228ab5996e532233380548421ae9ecdbe750e3257f40a5552f92619e8"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-tim-core.pw.toml"
-hash = "8d72d60014d8ff69a9061e7dd0afee9fe6e400d590484412fa83c6ddbca1b5aa"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "d0d21c8cd26fc4ddcdd03893e4b7ad5e1d1a4701a272f002f2932f9686770a6e"
 metafile = true
@@ -439,6 +434,10 @@ metafile = true
 file = "mods/sodium.pw.toml"
 hash = "be0c8881821da897824770b2a71f0f3765a233eda69b295fa5b92ffe8a25014c"
 metafile = true
+
+[[files]]
+file = "mods/timcore-fabric-1.7.1-1.26.1.jar"
+hash = "369ae5a64f7bbe06d480279ff487e4bec0452dfe1fa42f99d15e274786fda3ad"
 
 [[files]]
 file = "mods/valhelsia-core.pw.toml"
