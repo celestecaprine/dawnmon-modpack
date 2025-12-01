@@ -21,18 +21,18 @@ jobs:
       - name: Produce .mrpack
         run: |
           chmod +x ./packwiz
-          ./packwiz mr export -o ponymon-dev-${{ env.TRIMMED_SHA }}.mrpack
+          ./packwiz mr export -o dawnmon-dev-${{ env.TRIMMED_SHA }}.mrpack
       - name: unzip the mrpack into a directory because github is really stupid
         run: |
           mkdir artifact
-          unzip ponymon-dev-${{ env.TRIMMED_SHA }}.mrpack -d artifact
+          unzip dawnmon-dev-${{ env.TRIMMED_SHA }}.mrpack -d artifact
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ponymon-dev-${{ env.TRIMMED_SHA }}.mrpack
+          name: dawnmon-dev-${{ env.TRIMMED_SHA }}.mrpack
           path: ./artifact
       - name: Test with itzg/minecraft-server
         run: |
           ls ${{ env.GITHUB_WORKSPACE}}
           chmod +x ./workflow/server-wrapper.sh
-          ./workflow/server-wrapper.sh -c "docker run --rm -v ./:/gh -e MODRINTH_MODPACK=/gh/ponymon-dev-${{ env.TRIMMED_SHA }}.mrpack -e EULA=TRUE -e TYPE=MODRINTH itzg/minecraft-server"
+          ./workflow/server-wrapper.sh -c "docker run --rm -v ./:/gh -e MODRINTH_MODPACK=/gh/dawnmon-dev-${{ env.TRIMMED_SHA }}.mrpack -e EULA=TRUE -e TYPE=MODRINTH itzg/minecraft-server"
