@@ -1,0 +1,13 @@
+name = "Backup Manager"
+filename = "BackupManager-fabric-1.21-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GS5Qkj3H/versions/nJGg5DVx/BackupManager-fabric-1.21-1.0.0.jar"
+hash-format = "sha512"
+hash = "2c560bfc086ec59520bfb61c0085146d9214ecacbb59bd6680e2bddcfaaec8ae7145825c2195848431f96c57a5915a9272e87c86f1f6cf9c5dc5e01de2b2200b"
+
+[update]
+[update.modrinth]
+mod-id = "GS5Qkj3H"
+version = "nJGg5DVx"
