@@ -416,11 +416,6 @@ hash = "26a06bacc278a6541cdf6a1301210167031cf2398fa3467df7e5b87092afe37f"
 metafile = true
 
 [[files]]
-file = "mods/slabee.pw.toml"
-hash = "4aabb463bce117c6090a26587fce810e8ff350d1b81177e4d16c2288d08af2f6"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "1af09f16a643df0f61f2c799e981aa0b8c109999f0784584a6eff9a81f1c00c1"
 metafile = true
@@ -433,6 +428,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "be0c8881821da897824770b2a71f0f3765a233eda69b295fa5b92ffe8a25014c"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "9bdd041fb29ab003ef5bb1f0ba53516847e32e3010a3fce247f743fc98e08a6b"
 metafile = true
 
 [[files]]
